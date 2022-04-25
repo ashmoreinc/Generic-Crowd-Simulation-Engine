@@ -1,0 +1,5 @@
+﻿{
+  "max_speed": {"min":5.0, "max":8.0},
+  "base_speed": {"min":2.5, "max":4.0},
+  "acceleration_factor": {"min":1.0, "max":3.0}
+}

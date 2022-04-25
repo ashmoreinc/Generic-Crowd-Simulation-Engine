@@ -1,0 +1,39 @@
+﻿{
+  "behaviours": [
+    {
+      "name":"Preemptive Avoidance",
+      "affectors":["Agent"],
+      "behaviourType":"repulsive",
+      "takesFocus":false,
+      "radius":{"min":3, "max":7},
+      "speedFactor": {"min":0.05, "max":0.1},
+      "rotationFactor": {"min":0.5, "max":1},
+      "maxSpeedEffect": {"min":0, "max":0},
+      "maxRotationEffect": {"min":-1, "max":-1},
+      "fieldOfEffect": {"min":180, "max":180}
+    },
+    {
+      "name":"Obstacle Avoidance",
+      "affectors":["Obstacle"],
+      "behaviourType":"repulsive",
+      "takesFocus":false,
+      "radius":{"min":1, "max":2},
+      "speedFactor": {"min":1, "max":1},
+      "rotationFactor": {"min":3, "max":3},
+      "maxSpeedEffect": {"min":1, "max":1},
+      "maxRotationEffect": {"min":1, "max":1},
+      "fieldOfEffect": {"min":360, "max":360}
+    },
+    {
+      "name":"Immediate Avoidance",
+      "affectors":["Agent"],
+      "behaviourType":"repulsive",
+      "takesFocus":true,
+      "radius":{"min":0.75, "max":1},
+      "speedFactor": {"min":1, "max":1},
+      "rotationFactor": {"min":10, "max":20},
+      "maxSpeedEffect": {"min":1, "max":1},
+      "maxRotationEffect": {"min":1, "max":1},
+      "fieldOfEffect": {"min":180, "max":180}
+    }]
+}
