@@ -4,7 +4,7 @@ The development of a Generic Cloud Simulatiion Engine. Built using Unity.
 ## Usage
 To get started using this system, clone this repo and open it via Unity Hub.
 This project runs on Unity Version 2020.3.30f1, and is confirmed to work in this version.
-This project _should_ work in later versions of Unity, but is not be confirmed.
+This project _should_ work in later versions of Unity, but has not been confirmed.
 
 ## View previous development
 Some scenes are already present in the project, to view these, navigate (from within Unity) to Scenes and the sub-directories hold the scenes.
