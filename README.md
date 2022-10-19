@@ -1,6 +1,8 @@
 # Generic-Crowd-Simulation-Engine
 The development of a Generic Cloud Simulatiion Engine. Built using Unity.
 
+This was developed along side [Ricardo Goncalves](https://github.com/ricardogoncalves-cds) using PlasticSCM, this is the final port from that VC.
+
 ## Usage
 To get started using this system, clone this repo and open it via Unity Hub.
 This project runs on Unity Version 2020.3.30f1, and is confirmed to work in this version.
